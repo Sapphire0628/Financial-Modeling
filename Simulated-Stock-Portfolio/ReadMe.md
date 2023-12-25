@@ -133,3 +133,114 @@ Filtering stocks based on criteria such as ROE > 20%, P/E < 40%, and a similarit
 ## 5. Capital Asset Pricing Model
 
 **CAPM**, a widely-used financial model, estimates the expected return on an investment based on its systematic risk, commonly known as beta. In this analysis, we utilized the S&P 500 as a benchmark for our portfolio. The CAPM helped us determine the appropriate required rate of return for our investments.
+
+### 5.1 Normalized Prices for all stocks from 2018 to 2022
+
+<img src='./image/NormalizedPrices.png' width='800'>
+
+### 5.2 Correlation matrix between all stocks
+
+<img src='./image/Coff.png' width='800'>
+
+**Correlation coefficient (r)** quantifies the degree to which the prices of two different stocks or financial assets, move in relation to each other. It is represented by the symbol "r" and can take values between -1 and 1.
+
+Interpretation:
+
+*r > 0*: If one stock goes up, the other tends to go up too. +1 means a perfect match.
+
+*r < 0*: If one stock goes up, the other often goes down. -1 means a perfect opposite match.
+
+*r = 0*: They move independently, no clear connection.
+
+### 5.3 Beta  (β)
+
+**Beta  (β)** is a measure of a stock's or portfolio's sensitivity to market movements. It quantifies the systematic risk of an investment.
+
+Interpretation:
+
+β = 1: the stock tends to move in sync with the market.
+
+β > 1: the stock is more volatile (riskier) than the market.
+
+0 < β < 1: the stock is less volatile (less risky) than the market.
+
+β < 0 (negative): the stock moves inversely to the market.
+
+```
+{'ADBE': 1.2758267091281452,
+ 'ANET': 1.2098311411357998,
+ 'CVX': 1.0407618439616375,
+ 'DECK': 1.1468512568533273,
+ 'DVN': 1.45314887705542,
+ 'GOOG': 1.1390856199886885,
+ 'GOOGL': 1.144984613869538,
+ 'LAD': 1.1088461946826724,
+ 'MLI': 1.2038564544078376,
+ 'MTDR': 1.8404605252445647,
+ 'NFLX': 1.1186574614371128,
+ 'ON': 1.7326100663937736,
+ 'SMCI': 1.1633970369366942,
+ 'TPL': 1.0991219811035702,
+ 'XOM': 0.9061008361245484}
+```
+
+### 5.4 Alpha (α) 
+
+**Alpha (α)** is a measure of the difference between actual return and expected return. (Optional)
+
+Interpretation:
+
+If the actual return is higher than the expected return, then α > 0, which means the portfolio performed better than expected, otherwise it is α < 0.
+
+```
+{'ADBE': 0.03071627629715536,
+ 'ANET': 0.0517591172575335,
+ 'CVX': 0.030742645632524504,
+ 'DECK': 0.12178458121271682,
+ 'DVN': 0.06687200105280273,
+ 'GOOG': 0.017206934769539085,
+ 'GOOGL': 0.0159860260959632,
+ 'LAD': 0.04869279801055145,
+ 'MLI': 0.038890011167942176,
+ 'MTDR': 0.12308940151906302,
+ 'NFLX': 0.03513060327350933,
+ 'ON': 0.07868448779733836,
+ 'SMCI': 0.1281382829591363,
+ 'TPL': 0.14743780394985403,
+ 'XOM': 0.030165381100497903}
+```
+
+### 5.5 Expected Return Based on CAPM
+
+We constructed a portfolio with uniform weighting.
+
+```
+Annual Expected Return Based on CAPM for ADBE is 12.095133121357907g%
+Annual Expected Return Based on CAPM for ANET is 11.469479829593446g%
+Annual Expected Return Based on CAPM for CVX is 9.866663677975696g%
+Annual Expected Return Based on CAPM for DECK is 10.872415918864712g%
+Annual Expected Return Based on CAPM for DVN is 13.77618840190914g%
+Annual Expected Return Based on CAPM for GOOG is 10.798795880204354g%
+Annual Expected Return Based on CAPM for GOOGL is 10.854719710423984g%
+Annual Expected Return Based on CAPM for LAD is 10.512119114486255g%
+Annual Expected Return Based on CAPM for MLI is 11.412838413626778g%
+Annual Expected Return Based on CAPM for MTDR is 17.447992660891558g%
+Annual Expected Return Based on CAPM for NFLX is 10.605132198971061g%
+Annual Expected Return Based on CAPM for ON is 16.425545295848323g%
+Annual Expected Return Based on CAPM for SMCI is 11.02927375172964g%
+Annual Expected Return Based on CAPM for TPL is 10.419931314295011g%
+Annual Expected Return Based on CAPM for XOM is 8.590046090028475g%
+
+Annual Expected Return Based on CAPM for the Portfolio is 11.75%
+```
+
+### 5.6 BackTesting from 2023
+
+<img src='./image/UniformPoftfolio.png' width='800'>
+
+We constructed a portfolio with uniform weighting and evaluated its performance. The portfolio's total return was calculated to be 50.95%, indicating the cumulative return achieved throughout the designated holding period.
+
+#### Cumulative Return for all stocks from 2023
+
+<img src='./image/Cumulative Return.png' width='800'>
+
