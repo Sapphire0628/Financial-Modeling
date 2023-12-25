@@ -235,7 +235,13 @@ Annual Expected Return Based on CAPM for the Portfolio is 16.59%
 
 <img src='./image/UniformPoftfolio.png' width='800'>
 
-We constructed a portfolio with uniform weighting and evaluated its performance. The portfolio's total return was calculated to be 50.95%, indicating the cumulative return achieved throughout the designated holding period.
+We constructed a portfolio with uniform weighting and evaluated its performance. The portfolio's total return was calculated to be 50.01%, indicating the cumulative return achieved throughout the designated holding period.
+
+```
+Annual return: 50.01%
+Sharpe Ratio: 2.75
+Information Ratio: 1.65
+```
 
 #### Cumulative Return for all stocks from 2023
 
