@@ -294,7 +294,7 @@ Sharpe Ratio: 1.02
 
 #### 7.2.2 Optimized Portfolio's Weighting 
 
-<img src='./image/HPR.png' width='800'>
+<img src='./image/HRP.png' width='800'>
 
 #### 7.2.3 Optimized Portfolio's BackTesting from 2023
 
