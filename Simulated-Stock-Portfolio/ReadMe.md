@@ -50,7 +50,7 @@ In our analysis, we collected financial statements and ratios for each selected 
 Filtering stocks based on criteria such as ROE > 20%, P/E < 40%, and a similarity between ROCE and ROE, we aimed to identify stocks with favorable fundamentals for potential inclusion in the portfolio.
 
 
-## 2.2 Comparison of P/E, ROE, and ROCE for each selected Stock
+### 2.2 Comparison of P/E, ROE, and ROCE for each selected Stock
 
 <img src='./image/SelectedStockComparsion.png' width='800'>
 
@@ -244,3 +244,39 @@ We constructed a portfolio with uniform weighting and evaluated its performance.
 
 <img src='./image/Cumulative Return.png' width='800'>
 
+
+## 6. Portfolio Evaluation
+
+To assess risk-adjusted returns, we computed the Sharpe Ratio and Information Ratio for the portfolio. The Sharpe Ratio measures the excess return earned by the portfolio per unit of risk, while the Information Ratio evaluates the portfolio's risk-adjusted performance relative to the benchmark. Our portfolio demonstrated **a Sharpe Ratio of 2.97 and an Information Ratio of 1.79, indicating favorable risk-adjusted returns**.
+
+## 7. Portfolio Optimization - Mean-Variance Optimization
+
+### 7.1 Result of Mean-Variance Optimization
+
+**We employed Mean-Variance Optimization to enhance our portfolio's performance.** Through this process, we achieved a more efficient allocation of assets. The optimized portfolio demonstrated an expected annual return of **113.4%** and annual volatility of **25.7%**. The resulting Sharpe Ratio improved further to **4.34**, indicating **superior risk-adjusted returns**.
+
+```
+Expected annual return: 113.4%
+Annual volatility: 25.7%
+Sharpe Ratio: 4.34
+```
+
+### 7.2 Optimized Portfolio's Weighting 
+
+<img src='./image/MeanVarianceOptimization.png' width='800'>
+
+### 7.3 Optimized Portfolio's BackTesting from 2023
+
+<img src='./image/OptimizedPorfolio.png' width='800'>
+
+### 7.4 Comparison of Optimized and Uniform Weighting Portfolios
+
+The optimized portfolio achieved a total return of 112.57%, while the portfolio with uniform weighting yielded a total return of 50.95%. This significant difference in returns highlights the effectiveness of portfolio optimization in enhancing investment performance.
+
+### 7.5 Efficient Frontier
+<img src='./image/EfficientFrontier.png' width='800'>
+
+## 8. Conclusion
+This report highlighted the importance of a systematic approach to stock portfolio management, encompassing fundamental analysis, portfolio evaluation, and optimization. By considering key financial metrics and industry trends, we identified stocks with growth potential. Through portfolio optimization, we achieved significant enhancements in risk-adjusted returns.
+
+**It is crucial to note that the outcomes and conclusions presented in this report are based on simulated data and do not constitute financial advice**. Investors should consider individual risks, conduct thorough research, and seek professional guidance before making investment decisions. This report serves as an educational tool, enabling readers to gain valuable insights into the complexities of stock market investing and portfolio management.
