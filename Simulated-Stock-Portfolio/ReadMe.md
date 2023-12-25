@@ -167,21 +167,20 @@ Interpretation:
 β < 0 (negative): the stock moves inversely to the market.
 
 ```
-{'ADBE': 1.2758267091281452,
- 'ANET': 1.2098311411357998,
- 'CVX': 1.0407618439616375,
- 'DECK': 1.1468512568533273,
- 'DVN': 1.45314887705542,
- 'GOOG': 1.1390856199886885,
- 'GOOGL': 1.144984613869538,
- 'LAD': 1.1088461946826724,
- 'MLI': 1.2038564544078376,
- 'MTDR': 1.8404605252445647,
- 'NFLX': 1.1186574614371128,
- 'ON': 1.7326100663937736,
- 'SMCI': 1.1633970369366942,
- 'TPL': 1.0991219811035702,
- 'XOM': 0.9061008361245484}
+{'ADBE': 1.2328564864282514,
+ 'ANET': 1.1614865409084014,
+ 'CVX': 1.053841102886013,
+ 'DECK': 1.1841379444215137,
+ 'DVN': 1.4677616691104722,
+ 'GOOG': 1.1075811315395903,
+ 'LAD': 1.1871205032923944,
+ 'MLI': 1.2398357309495094,
+ 'MTDR': 1.8806243183146274,
+ 'NFLX': 1.0198407575732837,
+ 'ON': 1.7549356620052805,
+ 'SMCI': 1.1931803613456669,
+ 'TPL': 1.1122297095587308,
+ 'XOM': 0.9118566587605104}
 ```
 
 ### 5.4 Alpha (α) 
@@ -193,21 +192,20 @@ Interpretation:
 If the actual return is higher than the expected return, then α > 0, which means the portfolio performed better than expected, otherwise it is α < 0.
 
 ```
-{'ADBE': 0.03071627629715536,
- 'ANET': 0.0517591172575335,
- 'CVX': 0.030742645632524504,
- 'DECK': 0.12178458121271682,
- 'DVN': 0.06687200105280273,
- 'GOOG': 0.017206934769539085,
- 'GOOGL': 0.0159860260959632,
- 'LAD': 0.04869279801055145,
- 'MLI': 0.038890011167942176,
- 'MTDR': 0.12308940151906302,
- 'NFLX': 0.03513060327350933,
- 'ON': 0.07868448779733836,
- 'SMCI': 0.1281382829591363,
- 'TPL': 0.14743780394985403,
- 'XOM': 0.030165381100497903}
+{'ADBE': 0.003999720700290811,
+ 'ANET': 0.05779607411907258,
+ 'CVX': 0.03927101190495096,
+ 'DECK': 0.09053534167539967,
+ 'DVN': 0.12504226036118657,
+ 'GOOG': 0.014610781667456108,
+ 'LAD': 0.08208354434535665,
+ 'MLI': 0.07297194743925607,
+ 'MTDR': 0.19758635928897855,
+ 'NFLX': 0.0038582139561013184,
+ 'ON': 0.10531000976007641,
+ 'SMCI': 0.15838385276637856,
+ 'TPL': 0.147034753454329,
+ 'XOM': 0.045579684242463364}
 ```
 
 ### 5.5 Expected Return Based on CAPM
@@ -215,23 +213,22 @@ If the actual return is higher than the expected return, then α > 0, which mean
 We constructed a portfolio with uniform weighting.
 
 ```
-Annual Expected Return Based on CAPM for ADBE is 12.095133121357907g%
-Annual Expected Return Based on CAPM for ANET is 11.469479829593446g%
-Annual Expected Return Based on CAPM for CVX is 9.866663677975696g%
-Annual Expected Return Based on CAPM for DECK is 10.872415918864712g%
-Annual Expected Return Based on CAPM for DVN is 13.77618840190914g%
-Annual Expected Return Based on CAPM for GOOG is 10.798795880204354g%
-Annual Expected Return Based on CAPM for GOOGL is 10.854719710423984g%
-Annual Expected Return Based on CAPM for LAD is 10.512119114486255g%
-Annual Expected Return Based on CAPM for MLI is 11.412838413626778g%
-Annual Expected Return Based on CAPM for MTDR is 17.447992660891558g%
-Annual Expected Return Based on CAPM for NFLX is 10.605132198971061g%
-Annual Expected Return Based on CAPM for ON is 16.425545295848323g%
-Annual Expected Return Based on CAPM for SMCI is 11.02927375172964g%
-Annual Expected Return Based on CAPM for TPL is 10.419931314295011g%
-Annual Expected Return Based on CAPM for XOM is 8.590046090028475g%
+Annual Expected Return Based on CAPM for ADBE is 28.58%
+Annual Expected Return Based on CAPM for ANET is 26.93%
+Annual Expected Return Based on CAPM for CVX is 24.43%
+Annual Expected Return Based on CAPM for DECK is 27.45%
+Annual Expected Return Based on CAPM for DVN is 34.03%
+Annual Expected Return Based on CAPM for GOOG is 25.68%
+Annual Expected Return Based on CAPM for LAD is 27.52%
+Annual Expected Return Based on CAPM for MLI is 28.74%
+Annual Expected Return Based on CAPM for MTDR is 43.60%
+Annual Expected Return Based on CAPM for NFLX is 23.64%
+Annual Expected Return Based on CAPM for ON is 40.69%
+Annual Expected Return Based on CAPM for SMCI is 27.66%
+Annual Expected Return Based on CAPM for TPL is 25.79%
+Annual Expected Return Based on CAPM for XOM is 21.14%
 
-Annual Expected Return Based on CAPM for the Portfolio is 11.75%
+Annual Expected Return Based on CAPM for the Portfolio is 16.59% 
 ```
 
 ### 5.6 BackTesting from 2023
@@ -247,36 +244,65 @@ We constructed a portfolio with uniform weighting and evaluated its performance.
 
 ## 6. Portfolio Evaluation
 
-To assess risk-adjusted returns, we computed the Sharpe Ratio and Information Ratio for the portfolio. The Sharpe Ratio measures the excess return earned by the portfolio per unit of risk, while the Information Ratio evaluates the portfolio's risk-adjusted performance relative to the benchmark. Our portfolio demonstrated **a Sharpe Ratio of 2.97 and an Information Ratio of 1.79, indicating favorable risk-adjusted returns**.
+To assess risk-adjusted returns, we computed the Sharpe Ratio and Information Ratio for the portfolio. The Sharpe Ratio measures the excess return earned by the portfolio per unit of risk, while the Information Ratio evaluates the portfolio's risk-adjusted performance relative to the benchmark. Our portfolio demonstrated **a Sharpe Ratio of 2.75 and an Information Ratio of 1.65, indicating favorable risk-adjusted returns**.
 
-## 7. Portfolio Optimization - Mean-Variance Optimization
+## 7. Portfolio Optimization
 
-### 7.1 Result of Mean-Variance Optimization
+### 7.1 Mean-Variance Optimization
 
-**We employed Mean-Variance Optimization to enhance our portfolio's performance.** Through this process, we achieved a more efficient allocation of assets. The optimized portfolio demonstrated an expected annual return of **113.4%** and annual volatility of **25.7%**. The resulting Sharpe Ratio improved further to **4.34**, indicating **superior risk-adjusted returns**.
+#### 7.1.1 Result of Mean-Variance Optimization
+
+**We employed Mean-Variance Optimization to enhance our portfolio's performance.** Through this process, we achieved a more efficient allocation of assets. The optimized portfolio demonstrated an expected annual return of **46.9%** and annual volatility of **39.2%**. The resulting Sharpe Ratio improved further to **1.14**, indicating **superior risk-adjusted returns**.
 
 ```
-Expected annual return: 113.4%
-Annual volatility: 25.7%
-Sharpe Ratio: 4.34
+Expected annual return: 46.9%
+Annual volatility: 39.2%
+Sharpe Ratio: 1.14
 ```
 
-### 7.2 Optimized Portfolio's Weighting 
+#### 7.1.2 Optimized Portfolio's Weighting 
 
 <img src='./image/MeanVarianceOptimization.png' width='800'>
 
-### 7.3 Optimized Portfolio's BackTesting from 2023
+#### 7.1.3 Optimized Portfolio's BackTesting from 2023
 
 <img src='./image/OptimizedPorfolio.png' width='800'>
 
-### 7.4 Comparison of Optimized and Uniform Weighting Portfolios
+#### 7.1.4 Efficient Frontier
 
-The optimized portfolio achieved a total return of 112.57%, while the portfolio with uniform weighting yielded a total return of 50.95%. This significant difference in returns highlights the effectiveness of portfolio optimization in enhancing investment performance.
-
-### 7.5 Efficient Frontier
 <img src='./image/EfficientFrontier.png' width='800'>
 
-## 8. Conclusion
+
+### 7.2 Hierarchical Risk Parity (HRP)
+
+#### 7.2.1 Result of Hierarchical Risk Parity (HRP)
+
+
+**We employed Mean-Variance Optimization to enhance our portfolio's performance.** Through this process, we achieved a more efficient allocation of assets. The optimized portfolio demonstrated an expected annual return of **33.2%** and annual volatility of **30.5%**. The resulting Sharpe Ratio improved further to **1.02**, indicating **superior risk-adjusted returns**.
+
+```
+Expected annual return: 33.2%
+Annual volatility: 30.5%
+Sharpe Ratio: 1.02
+```
+
+#### 7.2.2 Optimized Portfolio's Weighting 
+
+<img src='./image/HPR.png' width='800'>
+
+#### 7.2.3 Optimized Portfolio's BackTesting from 2023
+
+<img src='./image/HPRPortfolio.png' width='800'>
+
+## Comparison
+
+|               | Annual return |  Sharpe Ratio | Information Ratio |
+| ------------- | ------------- | ------------- | ------------- |
+| Uniform Portfolio | 50.01%  | 2.75  | 1.65  |
+| Mean_Variance Portfolio  | 99.92%  | 1.18  | 0.71  |
+| HRP Portfolio  | 62.79%  | 2.59  | 1.55  |
+
+## 9. Conclusion
 This report highlighted the importance of a systematic approach to stock portfolio management, encompassing fundamental analysis, portfolio evaluation, and optimization. By considering key financial metrics and industry trends, we identified stocks with growth potential. Through portfolio optimization, we achieved significant enhancements in risk-adjusted returns.
 
 **It is crucial to note that the outcomes and conclusions presented in this report are based on simulated data and do not constitute financial advice**. Investors should consider individual risks, conduct thorough research, and seek professional guidance before making investment decisions. This report serves as an educational tool, enabling readers to gain valuable insights into the complexities of stock market investing and portfolio management.
