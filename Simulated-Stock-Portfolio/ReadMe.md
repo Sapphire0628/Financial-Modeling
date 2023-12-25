@@ -21,8 +21,11 @@ stocks_list = ['AMD','NVDA','INTC','ON','ANET','SMCI','GOOG','META','AMZN','BABA
               'AMD','GOOGL','DECK','HAL','TMUS','WDAY','LULU','MTDR','AMGN','ADM']
 ```
 > Reference:
-> https://www.nasdaq.com/articles/10-top-stocks-to-buy-for-2022
-> https://finance.yahoo.com/news/12-best-performing-growth-stocks-185041601.html
+> 
+> 1. https://www.nasdaq.com/articles/10-top-stocks-to-buy-for-2022
+>    
+> 2. https://finance.yahoo.com/news/12-best-performing-growth-stocks-185041601.html
+>    
 > etc.
 
 
