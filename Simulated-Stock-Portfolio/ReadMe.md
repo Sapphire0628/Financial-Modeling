@@ -20,3 +20,13 @@ stocks_list = ['AMD','NVDA','INTC','ON','ANET','SMCI','GOOG','META','AMZN','BABA
               'LAD','TNL','MLI','HRI','DVN','MRO','QCOM','MU','AGYS','CECO','TPL','NOV','MRC','ELF','ATI','XOM','CVX','CRM',
               'AMD','GOOGL','DECK','HAL','TMUS','WDAY','LULU','MTDR','AMGN','ADM']
 ```
+> Reference:
+> https://www.nasdaq.com/articles/10-top-stocks-to-buy-for-2022
+> https://finance.yahoo.com/news/12-best-performing-growth-stocks-185041601.html
+> etc.
+
+
+## Fundamental Analysis
+
+In our analysis, we collected financial statements and ratios for each selected company, creating a data frame with columns including Symbol, Release Date, Total Revenue, Market Price, Net Income, Total Stockholder Equity, EPS, P/E Ratio, ROE, and ROCE. We focused on key financial metrics such as the P/E ratio, ROE, and ROCE.
+
