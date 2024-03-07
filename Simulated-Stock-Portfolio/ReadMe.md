@@ -1,5 +1,8 @@
 # Simulated Stock Portfolio: Enhancing Investment Success through Fundamental Analysis and Portfolio Optimization
 
+## Source Code
+[links](https://github.com/Sapphire0628/Financial-Modeling-Project/blob/main/Simulated-Stock-Portfolio/Stock_Portfolio_Simulation.ipynb)
+
 ## Abstract:
 
 This report aims to provide a comprehensive analysis of a simulated stock portfolio, highlighting the systematic approach of fundamental analysis, stock selection, and portfolio optimization. By leveraging financial statements, industry trends, and key financial metrics, investors identify stocks with growth potential. The selected stocks are then held for a designated period, to maximize returns.
